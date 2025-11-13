@@ -5,17 +5,11 @@
 clear all
 set seed 12345
 
-clear
-set more off
-  global PP   "F:\小论文文章\未结束\无人机\自己\文章抽样\stata"  
-  global o "$PP\out"
-  global D    "$PP\dta_cln" 
-  global R    "$PP\dta_raw"      
-  cd "$R"
+
 ***************************************************
 
 * 导入数据
-use "$D\高质量喂养.dta", clear
+use "High-quality feeding.dta", clear
 
 
 
